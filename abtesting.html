@@ -1,0 +1,204 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>A/B Testing Project</title>
+        <link rel="stylesheet" href="abtesting.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="header-right"><a href="about.html">About</a></div>
+            <div class="header-right"><a href="home.html">Home</a></div>
+        </div>
+
+        <div class="title">
+            <div class="column1">
+                    <div id="name">
+                        A/B Testing 
+                    </div>
+                    <img id="abtesting-img" src="abtesting-logo.jpeg">
+                <div id="descriptions">
+                    <div id="description1">
+                        Type: UI/UX, Desktop, Statistical Analysis
+                    </div>
+                    <div id="description2">
+                        Tools: HTML/CSS, Python, Figma
+                    </div>
+                    <div id="description3">
+                        Date: October 2020
+                    </div>
+                </div>
+                <div id="intro">
+                    This was a project for CSCI1300: UI/UX. For this project, I modified an existing interface and performed an A/B test
+                    and statistical analysis to learn the impacts of two different UI designs.
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <hr/>
+        </div>
+
+        <!--intro-->
+    <div class="container1">
+        <div id="box">
+            <div id="title">
+              Introduction: The Task
+            </div>
+            <div id="p">
+              The A and B interfaces presented an online succulent store, in which users were able to add different cacti
+              to their cart and go to checkout. For the A/B tests, the users were asked to purchase $150 worth of cacti. When the user clicked on the link 
+              of the cacti website, they randomly landed on either the A interface or the B interface.  
+            </div>
+        </div>
+      </div>
+  
+      <div class="navbar">
+        <hr/>
+      </div>
+
+      <div class="container2">
+        <div id="box">
+          <div id="title">
+            The A & B Interfaces:
+          </div>
+            <div id="bold">Screenshot of the A Interface:</div>
+            <img id="a-interface" src="A Interface.png">
+            <div id="bold">Screenshot of the B Interface:</div>
+            <img id="b-interface" src="B Interface.jpg">
+        </div>
+    </div>
+
+    <div class="navbar">
+        <hr/>
+    </div>
+
+    <div class="container3">
+        <div id="box">
+            <div id="title">
+                Hypotheses:
+            </div>
+            <div id="p">
+                When running the statistical tests, I looked at two metrics:
+                time to completion and return rate. Before analyzing the results,
+                I came up with a null hypothesis and an alternative hypothesis for each metric. 
+            </div>
+            <div id="bold">
+                Hypotheses for Time to Completion:
+            </div>
+            <div id="p">
+                Null hypothesis: The time to completion for A and the time to completion for B are equal. 
+            </div>
+            <div id="p">
+                Alternative hypothesis: The time to completion for A is less than the time to completion
+                for B because the add to cart options are vertically aligned with the images of the cacti, allowing users to read the text quickly from top to bottom. 
+            </div>
+            <div id="bold">
+                Hypotheses for Return Rate: 
+            </div>
+            <div id="p">
+                Null hypothesis: The return rate for A and the return rate for B are equal. 
+            </div>
+            <div id="p">
+                Alternative hypothesis: The return rate for A is higher than the return rate for B because the prices of the cacti are further away from the images of the cacti as well as the + Cart button which may cause users to forget or not think about how much they are spending when pressing the + Cart button. 
+                Thus, more users may find themselves checking their cart and returning to the main page.
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <hr/>
+    </div>
+
+    <div class="container4">
+        <div id="box">
+          <div id="title">
+            Data Collection Process: 
+          </div>
+          <div id="p">
+            Our class tested each other's A/B sites to collect data. I first shared the 
+            link to my cacti website, which included the A and B versions of the interface, to my classmates. 
+            As mentioned before, the task was to fill the shopping cart with at least $150 worth of cacti, and each user
+            randomly received either the A version or the B version of the interface. 
+            After collecting the data, I extracted the data from logs that were recorded through the Heroku app, which I used to
+            deploy my website. Then, I moved the data to an Excel spreadsheet in order to analyze the data.
+            To prepare for the statistical analysis, I coded a Python script that calculated the metric for each statistical test. Thus, after moving the data to the spreadsheet, 
+            I ran the script to get the results of the statistical tests.   
+          </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <hr/>
+    </div>
+
+    <div class="container5">
+        <div id="box">
+          <div id="title">
+            Infographic: 
+          </div>
+          <div id="p">
+            Below, I have included an infographic that highlights the results that I found after completing the statistical tests. 
+          </div>
+          <img id="infographic" src="A_B Testing Infographic.jpg">
+        </div>
+    </div>
+
+    <div class="navbar">
+        <hr/>
+    </div>
+
+    <div class="container6">
+        <div id="box">
+          <div id="title">
+            Takeaways:
+          </div>
+          <div id="p">
+            <li>One limitation of this A/B test is that the sample size is too small. Because I was only
+              able to collect data from 24 users, my results may not be representative of a bigger population.
+            </li>
+          </div>
+          <div id="p">
+            <li>My data might have also been skewed because more users tested the B interface compared to the A interface. 
+              While 16 users tested the B interface, only 8 users tested the A interface. 
+            </li>
+          </div>
+          <div id="p">
+            <li>It would be interesting if I ran the test with different populations. Because I ran the test with only students, 
+              the results may have ben different if I ran the test with a different population, such as older adults.  
+            </li>
+          </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <hr/>
+    </div>
+
+    <div id="container7">
+        <div id="box">
+            <div id="title">
+                Conclusion:
+            </div>
+            <div id="p">
+                This project made me realize the importance of statistical analysis in UI/UX design. 
+                Although my statistical tests showed no significant difference between the A interface 
+                and the B interface, I still learned that different UI designs on an interface can still
+                have an impact on the user's experience in using that particular interface. I look forward to performing
+                more A/B tests in the future, and I hope that if I find a significant difference, I would able to apply
+                this finding to improve the design of the interface. 
+            </div>
+        </div>
+    </div>
+
+    <footer>made with love by nicole kim &#169 2020</footer>
+
+
+
+    </body>
+</html>
