@@ -1,0 +1,288 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>Responsive Redesign Project</title>
+        <link rel="stylesheet" href="responsive.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="header-right"><a href="about.html">About</a></div>
+            <div class="header-right"><a href="home.html">Home</a></div>
+        </div>
+
+        <div class="title">
+            <div class="column1">
+                    <div id="name">
+                        Responsive Redesign
+                    </div>
+                    <img id="responsive-img" src="mostra-main.jpeg">
+                <div id="descriptions">
+                    <div id="description1">
+                        Type: UI/UX, Desktop, Mobile, Tablet 
+                    </div>
+                    <div id="description2">
+                        Tools: Figma, Balsamiq, HTML/CSS
+                    </div>
+                    <div id="description3">
+                        Date: October 2020
+                    </div>
+                </div>
+                <div id="intro">
+                    This was a project for CSCI1300: UI/UX. For this project, I redesigned the homepage of Mostra Coffee’s website. 
+                    Mostra Coffee is a local coffee shop in San Diego, and as a coffee lover, I go there at least once a week. 
+                    I redesigned the homepage to improve usability and learnability. I identified problems in the original website, 
+                    created low-fidelity wireframes and high-fidelity prototypes to fit different screen sizes, and used the 
+                    prototypes as a guideline to build a new responsive website.
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <hr/>
+        </div>
+
+        <div class="container1">
+            <div id="box">
+                <div id="title">
+                    Introduction: The Original Website 
+                </div>
+                <div id="p">
+                    <div id="link">Below, I have included some images of the <a target="_blank" href=https://www.mostracoffee.com>original website</a>.</div>
+                </div>
+            </div>
+                <img id="original-website" src="original website.jpg">
+                <img id="original-website2" src="original-website2.png">
+                <img id="original-website3" src="original-website3.png">
+                <img id="original-website4" src="original-website4.png">
+        </div>
+
+        <div class="navbar">
+            <hr/>
+        </div>
+
+        <div class="container2">
+            <div id="box">
+              <div id="title">
+              Finding Problems:
+              </div>
+            <div id="p">
+             <li>
+              <b>No hierarchy of elements.</b> There is a hamburger menu in the top left corner
+              of the website with the following options: Order To Go, Shop, About, Locations & 
+              Menu, and Contact. However, the same options are also scattered throughout the website. 
+              The website not only repeats the same information but also shows no hierarchy in the information. 
+            </li>
+            </div>
+            <div id="p">
+              <li>
+                <b>Too many clicks required to complete a single task.</b> For instance, to find a nearby location,
+                a user has to click on the Locations & Menu button. Instead of forcing users to click a button 
+                to find this information, it might be useful to just display it in the homepage. 
+              </li>
+            </div>
+            <div id="p">
+              <li>
+                <b>Minimal white space.</b> There is not much white space throughout the homepage,
+                and it is clumped with a lot of text and images.
+              </li>
+            </div>
+            <div id="p">
+              <li>
+                <b>Unnecessary buttons.</b> When a user clicks on the Locations & Menu option, 
+                the website navigates to another page with the different locations. Under each location,
+                there is a View Menu button. However, when one clicks on the View Menu button, the menu
+                that is displayed is the same for all the locations. Thus, it might be helpful if the 
+                website has just one central Menu button in a navigation menu so that new users know 
+                that the menu is the same for all the locations.
+              </li>
+            </div>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <hr/>
+        </div>
+
+        <div class="container3">
+            <div id="box">
+              <div id="title">
+              Accessability Findings:
+              </div>
+              <div id="p">
+                After using WebAIM WAVE on the original website, 
+                I found that the website does not have a heading structure. 
+                I also noticed that one of the titles in the homepage has very low contrast, 
+                making it difficult for the users to read the title since it is displayed over an image. 
+                There were two missing form labels for input boxes where users are able to input their 
+                first name and last name to join the Mostra Coffee community. When I tested the website 
+                by using a screen-reader, I noticed that because of these missing form labels, the screen-reader 
+                was unable to detect these input boxes. In addition to missing form labels, there were two empty 
+                form labels, one for a hamburger menu and one for an image. When using voice over to test the website, 
+                I found that when I clicked on the hamburger menu, it said that I was on an image. 
+                Then, when I pressed on the image, the voice over said I was on heading level 1. It seemed like the 
+                voice over could not actually detect whether I was on the hamburger menu or the image. 
+              </div>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <hr/>
+        </div>
+
+        <div class="container4">
+            <div id="box">
+                <div id="title">
+                    Low-fidelity Wireframes:
+                </div>
+                <div id="bold">
+                    Mobile:
+                </div>
+            </div>
+                <img id="mobile-wireframe" src="responsive-wireframe.jpg">
+            <div id="box">
+                <div id="bold">
+                    Tablet:
+                </div>
+            </div>
+                <img id="tablet-wireframe" src="Lo-fi Wireframes (Tablet).jpg">
+            <div id="box">
+                <div id="bold">
+                    Desktop:
+                </div>
+            </div>
+                <img id="desktop-wireframe" src="lo-fi wireframe(desktop).jpg">
+        </div>
+
+        <div class="navbar">
+            <hr/>
+        </div>
+
+        <div class="container5">
+            <div id="box">
+                <div id="title">
+                    High-Fidelity Prototypes:
+                </div>
+                <div id="bold">
+                    Mobile:
+                </div>
+            </div>
+                <img id="mobile-prototype" src="mobile-prototype.jpg">
+            <div id="box">
+                <div id="bold">
+                    Tablet:
+                </div>
+            </div>
+                <img id="tablet-prototype" src="tablet-prototype.jpg">
+            <div id="box">
+                <div id="bold">
+                    Desktop:
+                </div>
+            </div>
+                <img id="desktop-prototype" src="desktop-prototype.jpg">
+        </div>
+
+        <div class="navbar">
+            <hr/>
+        </div>
+
+        <div class="container6">
+            <div id="box">
+                <div id="title">
+                    Visual Design Style Guide:
+                </div>
+                <div id="p">
+                    This is the visual design style guide for the hi-fi prototypes.
+                </div>
+            </div>
+                <img id="visual-guide" src="Visual Design Style Guide.jpg">
+        </div>
+
+        <div class="navbar">
+            <hr/>
+        </div>
+
+        <div class="container7">
+            <div id="box">
+                <div id="title">
+                    Redesigned Website:
+                </div>
+                <div id="p">
+                    The redesigned website can be found at <a target="_blank" href="https://mostra-redesign.herokuapp.com/">https://mostra-redesign.herokuapp.com/</a>.
+                    Below, I have included some screenshots of the redesigned website! 
+                </div>
+                <div id="bold">
+                    Mobile:
+                </div>
+            </div>
+                <img id="mobile-redesign" src="redesign mobile .jpg">
+            <div id="box">
+                <div id="bold">
+                    Tablet:
+                </div>
+            </div>
+                <img id="tablet-redesign" src="redesign tablet.jpg">
+            <div id="box">
+                <div id="bold">
+                    Desktop:
+                </div>
+            </div>
+                <img id="desktop-redesign" src="redesign screenshot desktop.jpg">
+            <div id="box">
+                <div id="p2">
+                    To test the accessibility of the redesigned website, I played with the size of the browser to see how the website looks in different screen sizes. I was able to see that the website is responsive! For instance, the navigation bar changed into a hamburger menu when I made the size of the browser as small as a tablet screen or a mobile phone screen. I also tried changing the font size on my browser. When I made the font size really large on Google Chrome, I noticed that it made the hamburger menu become not aligned to the logo for the mobile phone screen. Thus, I fixed this problem by making the font size smaller for the logo for the mobile phone screen. Finally, I tested the website's responsiveness by using the Google Chrome Responsive Tool and WebAIM Wave.
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <hr/>
+        </div>
+
+        <div class="container8">
+            <div id="box">
+              <div id="title">
+              Citations:
+              </div>
+              <div id="p">
+                All the images except for the image right under the logo and the navigation bar were taken from Mostra Coffee's original 
+                website. They can be found at <a target="_blank" href="https://www.mostracoffee.com">https://www.mostracoffee.com</a>.
+              </div>
+              <div id="p">
+                I was able to create a responsive navigation menu with the help of the open source library, CodePen. I based my code off 
+                of <a target="_blank" href="https://codepen.io/mutedblues/pen/MmPNPG">https://codepen.io/mutedblues/pen/MmPNPG</a>.
+              </div>
+              <div id="p">
+                I created the input boxes with the help of W3Schools. I based my code off of <a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_forms">https://www.w3schools.com/css/tryit.asp?filename=trycss_forms</a>.
+              </div>
+            </div>
+          </div>
+      
+          <div class="navbar">
+            <hr/>
+          </div>
+      
+          <!--conclusion-->
+          <div class="container9">
+            <div id="box">
+              <div id="title">
+              Concluding Thoughts:
+              </div>
+              <div id="p">
+              This project made me think a lot about how a layout in a website may look different based on the screen size. 
+              I empathized with users and thought about their needs and motivations for looking at a particular website, and 
+              I didn't realize how much work it took to design different layouts for one page of a website. Through this project, 
+              I was also able to improve my skills in HTML/CSS and gain more experience in creating wireframes and prototypes.
+            </div>
+            </div>
+          </div>
+
+          <footer>made with love by nicole kim &#169 2020</footer>
+        
+    </body>
+</html>

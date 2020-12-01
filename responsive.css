@@ -1,0 +1,249 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-anchor: none;
+}
+
+body {
+    font-family: 'open sans'; 
+    letter-spacing:2%;
+    background: white;
+    color:#252421;
+    vertical-align: text-top;
+    padding-bottom: 20px;
+    height:100%;
+}
+
+.header {
+    overflow: hidden;
+    padding: 30px 20px;
+    font-family: 'Cambria', 'Arial', sans-serif;
+}
+
+.header a {
+    color:#252421;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:0.5px;
+    margin-right: 30px;
+}
+
+.header a:hover {
+    color: blue;
+}
+
+.header-right {
+    float: right;
+    margin-top: 5px;
+}
+
+#column1{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+#name{
+    font-size:30px;
+    margin-left: 10%;
+    margin-top: 2%;
+    letter-spacing: 1px;
+}
+
+#intro {
+    font-size: 15px;
+    line-height: 25px;
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+#descriptions{
+    margin-top: 2%;
+    font-size: 15px;
+    margin-left: 10%;
+}
+
+#description1 {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+
+#description2, #description3 {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    margin-left: 2%;
+}
+
+#responsive-img{
+    width: 350px;
+    height: 200px;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.navbar {
+    clear:left;
+    margin:auto;
+    margin-top:3%;
+    width:80%;
+    border-color:lightgrey;
+    height:1;
+}
+
+#box{
+    margin:auto;
+    margin-left:10%;
+}
+
+#title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2%;
+    font-family: "Montserrat";
+    color: chocolate;
+    text-transform: uppercase;
+}
+
+#p{
+    font-size: 15px;
+    width: 85%;
+    line-height: 30px;
+    margin-top:2%;
+}
+
+#link a:visited, #link a{
+    color: chocolate;
+    font-weight: 600;
+    transition:0.3s;
+}
+
+#original-website, #original-website2, #original-website3, #original-website4 {
+    display: inline-block;
+}
+
+#original-website, #original-website2, #original-website3, #original-website4 {
+    width:500px;
+    height: 250px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+li{
+    margin: 20px 0;
+    margin-left:5%;
+}
+
+#bold{
+    font-size: 20px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 3%;
+    font-family: 'SourceSansPro-Black', Helvetica, Arial;
+}
+
+#mobile-wireframe, #tablet-wireframe, #desktop-wireframe{
+    width:900px;
+    height: 550px;
+    max-width: 100%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mobile-prototype, #tablet-prototype{
+    width:900px;
+    height: 700px;
+    max-width: 100%;
+    margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#desktop-prototype{
+    width:1000px;
+    height: 800px;
+    max-width: 100%;
+    margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#visual-guide{
+    width:750px;
+    height: 500px;
+    max-width: 100%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#desktop-redesign{
+    width:600px;
+    height: 400px;
+    max-width: 100%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mobile-redesign{
+    width:450px;
+    height: 400px;
+    max-width: 100%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tablet-redesign{
+    width:550px;
+    height: 450px;
+    max-width: 100%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p2{
+    font-size: 15px;
+    width: 85%;
+    line-height: 30px;
+    margin-top:5%;
+}
+
+#p a:visited, #p a{
+    color: chocolate;
+    font-weight: 600;
+    transition:0.3s;
+}
+
+footer{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
