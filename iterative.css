@@ -111,13 +111,13 @@ body {
     font-size: 20px;
     margin-top: 2%;
     font-family: "Montserrat";
-    color: navy;;
+    color: navy;
     text-transform: uppercase;
 }
 
 #p{
     font-size: 15px;
-    width: 70%;
+    width: 85%;
     line-height: 30px;
     margin-top:2%;
 }
@@ -133,14 +133,21 @@ body {
 }
 
 #sketch1{
-    width:800px;
-    height: 500px;
+    width:1000px;
+    height: 700px;
     max-width: 100%;
     margin-left: 10%;
 }
 
-#sketch2, #sketch3, #sketch4{
-    width:800px;
+#sketch2{
+    width:1000px;
+    height: 600px;
+    max-width: 100%;
+    margin-left: 10%;
+}
+
+#sketch3, #sketch4{
+    width:1000px;
     height: 400px;
     max-width: 100%;
     margin-left: 10%;

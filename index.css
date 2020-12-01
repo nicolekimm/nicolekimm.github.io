@@ -89,96 +89,23 @@ body {
     position:relative;
     margin:20px;
 }
-.overlay{
-    position:absolute;
-    float: left;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    opacity:0;
-    width:100%;
-    height:auto;
-    transition: 0.5s ease;
-    background-color: lightcoral;
-}
 
-.container1:hover .overlay{
-    opacity: 1;
-}
+.container1:hover, .container2:hover, .container3:hover, .container4:hover{
+        z-index: 10;
+        box-sizing: border-box;
+        border-radius: 3px;
+        border: 1px solid white;
+        cursor: pointer;
+        transform: scale(1.05);
+        transform-origin: center;
+        transition: all 500ms cubic-bezier(0.57, 0.21, 0.69, 3.25);
 
-.overlay2{
-    position: absolute;
-    float:left;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    height:100%;
-    width: 100%;
-    opacity:0;
-    transition: 0.5s ease;
-    background-color: lightpink;
-}
-
-.container2:hover .overlay2{
-    opacity: 1;
 }
 
 .row1:after{
     content:"";
     clear:both;
 }
-
-.overlay3{
-    position:absolute;
-    float:left;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    height:100%;
-    width: 100%;
-    opacity:0;
-    transition: 0.5s ease;
-    background-color: rosybrown;
-}
-.container3:hover .overlay3{
-    opacity: 1;
-}
-
-.overlay4{
-    position: absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    height:100%;
-    width: 100%;
-    opacity:0;
-    transition: 0.5s ease;
-    background-color: sandybrown;
-}
-.container4:hover .overlay4{
-    opacity: 1;
-}
-
-.text{
-    position:absolute;
-    font-size: 25px;
-    top: 50%;
-    left:50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    white-space: nowrap;
-}
-
-.text a{
-    color: white;
-    text-decoration: none;
-} 
 
 #personas-img, #responsive-img, #abtesting-img, #iterative-img {
     display:block;
