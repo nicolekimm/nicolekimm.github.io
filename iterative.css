@@ -50,10 +50,11 @@ body {
 }
 
 .title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
+
 
 #name{
     font-size:30px;
@@ -140,34 +141,46 @@ body {
     width:1000px;
     height: 700px;
     max-width: 100%;
-    margin-left: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #sketch2{
     width:1000px;
     height: 600px;
     max-width: 100%;
-    margin-left: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #sketch3, #sketch4{
     width:1000px;
     height: 400px;
     max-width: 100%;
-    margin-left: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #wireframes{
     width:1000px;
     height: 350px;
-    max-width: 100%;
     margin-top:2%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #wireframes2, #wireframes3{
     width:1010px;
     height: 320px;
-    max-width: 100%;
     margin-top:5%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #p2{
@@ -175,7 +188,6 @@ body {
     width: 80%;
     line-height: 30px;
     margin-top:2%;
-    margin-left:2%;
 }
 
 #p3{
@@ -185,24 +197,8 @@ body {
     margin-left: 5%;
 }
 
-#visual-design-style-guide{
-    width:1000px;
-    height: 400px;
-    max-width: 100%;
-    margin-top:5%;
-    margin-left:2%;
-}
-
 li{
     margin: 20px 0;
-    margin-left:5%;
-}
-
-.row {
-    display: flex;
-}
-
-.column {
     margin-left:5%;
 }
 
@@ -212,4 +208,89 @@ footer{
     text-align: center;
     padding-top: 60px;
     padding-bottom: 20px;
+}
+
+@media screen and (max-width:767px) {
+    #name{
+        margin-top: 30%;
+    }
+    #iterative-img{
+        width: 150px;
+        height: 100px;
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+    #description1 {
+        position: relative;
+        display: inline-block;
+        margin: auto;
+    }
+    
+    #description2, #description3 {
+        position: relative;
+        display: inline-block;
+        margin: auto;
+        margin-top: 2%;
+    }
+    #intro {
+        margin-top: 5%;
+    }
+    #sketch1{
+        width:600px;
+        height: 200px;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #sketch2{
+        width:600px;
+        height: 200px;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #sketch3, #sketch4{
+        width:600px;
+        height: 200px;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #wireframes{
+        width:600px;
+        height: 150px;
+        margin-top:2%;
+        max-width: 100%;
+    }
+    
+    #wireframes2, #wireframes3{
+        width:610px;
+        height: 150px;
+        margin-top:5%;
+        max-width: 100%;
+    }
+    #p{
+        font-size: 15px;
+        width: 95%;
+        line-height: 30px;
+        margin-top:2%;
+    }
+    #p2{
+        font-size: 15px;
+        width: 95%;
+        line-height: 30px;
+        margin-top:2%;
+    }
+    
+    #p3{
+        margin-top:5%;
+        display:flex;
+        flex-direction:row;
+    }
 }
