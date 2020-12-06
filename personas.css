@@ -91,7 +91,7 @@ body {
     margin-left: 2%;
 }
 
-#persaons-img{
+#personas-img{
     width: 350px;
     height: 200px;
     margin-top: 2%;
@@ -188,4 +188,60 @@ footer{
     text-align: center;
     padding-top: 60px;
     padding-bottom: 20px;
+}
+
+@media screen and (max-width:767px) {
+    #name{
+        margin-top: 30%;
+    }
+    #personas-img{
+        width: 150px;
+        height: 100px;
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+
+    #description1 {
+        position: relative;
+        display: inline-block;
+        margin: auto;
+    }
+    
+    #description2, #description3 {
+        position: relative;
+        display: inline-block;
+        margin: auto;
+        margin-top: 2%;
+    }
+    #intro {
+        margin-top: 5%;
+    }
+
+    #interface-sketch{
+        width:300px;
+        height: 300px;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #persona{
+        width:500px;
+        height: 300px;
+        max-width:100%;
+        margin-top: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #storyboard{
+        width:600px;
+        height: 700px;
+        max-width:100%;
+        margin-top: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
