@@ -133,11 +133,11 @@ body {
     transition:0.3s;
 }
 
-#original-website, #original-website2, #original-website3, #original-website4 {
+#original-website{
     display: inline-block;
 }
 
-#original-website, #original-website2, #original-website3, #original-website4 {
+#original-website {
     width:500px;
     height: 250px;
     max-width: 100%;
@@ -251,4 +251,100 @@ footer{
     text-align: center;
     padding-top: 60px;
     padding-bottom: 20px;
+}
+
+@media screen and (max-width:767px) {
+    #name{
+        margin-top: 30%;
+    }
+
+    #responsive-img{
+        width: 150px;
+        height: 100px;
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+
+    #description1 {
+        position: relative;
+        display: inline-block;
+        margin: auto;
+    }
+    
+    #description2, #description3 {
+        position: relative;
+        display: inline-block;
+        margin: auto;
+        margin-top: 2%;
+    }
+    #intro {
+        margin-top: 5%;
+    }
+    
+    #original-website {
+        width:250px;
+        height: 150px;
+        max-width: 100%;
+        margin-top: 5%;
+    }
+
+    #mobile-wireframe, #tablet-wireframe, #desktop-wireframe{
+        width:500px;
+        height: 300px;
+        max-width: 100%;
+        margin-top: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #mobile-prototype, #tablet-prototype, #desktop-prototype{
+        width:700px;
+        height: 400px;
+        max-width: 100%;
+        margin-top: 2%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+#visual-guide{
+    width:450px;
+    height: 200px;
+    max-width: 100%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#desktop-redesign{
+    width:400px;
+    height: 200px;
+    max-width: 100%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mobile-redesign{
+    width:250px;
+    height: 200px;
+    max-width: 100%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tablet-redesign{
+    width:350px;
+    height: 250px;
+    max-width: 100%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
