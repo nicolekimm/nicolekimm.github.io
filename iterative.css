@@ -157,23 +157,21 @@ body {
     height: 350px;
     max-width: 100%;
     margin-top:2%;
-    margin-left:5%;
 }
 
 #wireframes2, #wireframes3{
     width:1010px;
     height: 320px;
     max-width: 100%;
-    margin-top:2%;
-    margin-left:5%;
+    margin-top:5%;
 }
 
 #p2{
     font-size: 15px;
-    width: 75%;
+    width: 80%;
     line-height: 30px;
     margin-top:2%;
-    margin-left:5%;
+    margin-left:2%;
 }
 
 #p3{

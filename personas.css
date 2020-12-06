@@ -166,6 +166,16 @@ li{
     margin-right: auto;
 }
 
+#bold{
+    font-size: 17px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 3%;
+    font-family: 'SourceSansPro-Black', Helvetica, Arial;
+}
+
 footer{
     font-size: 15px;
     letter-spacing: 1px;
