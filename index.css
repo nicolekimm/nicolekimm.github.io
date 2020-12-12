@@ -52,30 +52,50 @@ body {
 .home {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
-#name{
-    text-align:center;
-    letter-spacing: 1px;
-    font-size: 20px;
-    font-weight: 700;
-    margin-top: 7%; 
+#box{
+    margin-top: 15%; 
 }
 
-#description{
-    text-align:center;
-    color: dimgray;
-    letter-spacing: 1px;
-    font-size: 15px;
-    font-weight: 50;
-    margin-top: 2%;
+#home-photo{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#home-name{
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 5%; 
+}
+
+#home-text{
+    font-size:20px;
+    letter-spacing:0.75px;
+}
+
+#home-links{
+    display:inline-block;    
+    text-decoration:none;
+    transition: all ease-in-out 250ms;
+    margin-top: 2%; 
 }
 
 .projects {
-    display: flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5%;
+}
+
+#projects-title{
+    letter-spacing:1px;
+    font-size:30px;
+    font-weight:700;
+    margin-top: 15%;
 }
 
 .row1{
@@ -87,7 +107,7 @@ body {
     padding: 20px;
 }
 
-.row2{
+.row2, .row3{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
@@ -96,13 +116,13 @@ body {
     padding: 5px;
 }
 
-.container1, .container2, .container3, .container4{
+.container1, .container2, .container3, .container4, .container5, .container6{
     display:inline-block;
     position:relative;
     margin:20px;
 }
 
-.container1:hover, .container2:hover, .container3:hover, .container4:hover{
+.container1:hover, .container2:hover, .container3:hover, .container4:hover, .container5:hover, .container6:hover{
         z-index: 10;
         box-sizing: border-box;
         border-radius: 3px;
@@ -119,7 +139,7 @@ body {
     clear:both;
 }
 
-#personas-img, #responsive-img, #abtesting-img, #iterative-img {
+#personas-img, #responsive-img, #abtesting-img, #iterative-img, #canvas-img, #consumer-img {
     display:block;
     width: 100%;
     height:auto;
@@ -134,21 +154,38 @@ footer{
 }
 
 @media screen and (max-width:767px) {
-    #name{
-        text-align:center;
-        letter-spacing: 1px;
-        font-size: 15px;
-        font-weight: 700;
-        margin-top: 30%; 
+    #home-photo{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-top: 15%;
+        margin-left: 5%;
     }
-    #description{
-        text-align:center;
-        color: dimgray;
-        letter-spacing: 1px;
-        font-size: 12px;
-        font-weight: 50;
-        margin-top: 2%;
+
+    #home-name{
+        letter-spacing: 2px;
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 5%; 
+        margin-left: 5%;
     }
+    
+    #home-text{
+        margin-left: 5%;
+        font-size:15px;
+        letter-spacing:0.75px;
+        
+    }
+
+    
+    #home-links{
+        display:inline-block;    
+        text-decoration:none;
+        transition: all ease-in-out 250ms;
+        margin-top: 2%; 
+        margin-left: 5%;
+    }   
+
     .header {
         margin-top:5px;
         width:100%;
