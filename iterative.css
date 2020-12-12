@@ -196,12 +196,27 @@ li{
     margin-left:5%;
 }
 
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 20px;
+}
+
 footer{
     font-size: 15px;
     letter-spacing: 1px;
     text-align: center;
     padding-top: 60px;
     padding-bottom: 20px;
+}
+
+#myVideo{
+    max-width:100%;
+    width:400px;
+    height:300px;
 }
 
 @media screen and (max-width:767px) {
@@ -286,5 +301,10 @@ footer{
         margin-top:5%;
         display:flex;
         flex-direction:row;
+    }
+    #myVideo{
+        max-width:100%;
+        width:250px;
+        height:200px;
     }
 }
