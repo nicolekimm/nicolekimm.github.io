@@ -49,27 +49,39 @@ body {
     color: blue;
 }
 
-.about-text{
+#about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#prof-image{
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    margin-top: 50%;
+
+#about-title{
+    letter-spacing:1px;
+    font-size:30px;
+    font-weight:700;
+    margin-top: 30%;
 }
 
 
-.intro{
-    width:700px;
+#about-text {
+    width:726px;
     font-size:17px;
     line-height:25px;
     letter-spacing:0.75px;
     margin-top: 5%;
+}
+
+#about-text a:visited, #about-text a{
+    color: blue;
+    font-weight: 600;
+    transition:0.3s;
+}
+
+#about-text a:hover{
+    color:#D56350;
+    transition:0.3s;
 }
 
 footer{
@@ -81,11 +93,18 @@ footer{
 }
 
 @media screen and (max-width:767px) {
-    .intro{
+    #about-text {
         width:50%;
         font-size:17px;
         line-height:25px;
         letter-spacing:0.75px;
         margin-top: 5%;
+        margin-left: 25%;
+        
     }
+
+    #about-title{
+        margin-left: 25%;
+    }
+    
 }
