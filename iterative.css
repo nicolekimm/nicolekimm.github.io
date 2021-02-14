@@ -138,17 +138,17 @@ body {
 }
 
 #sketch1{
-    width:1000px;
-    height: 700px;
-    max-width: 100%;
+    width: 800px;
+    height: 500px;
+    max-width:100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 #sketch2{
-    width:1000px;
-    height: 600px;
+    width: 800px;
+    height: 500px;
     max-width: 100%;
     display: block;
     margin-left: auto;
@@ -156,39 +156,40 @@ body {
 }
 
 #sketch3, #sketch4{
-    width:1000px;
-    height: 400px;
+    width: 800px;
+    height: 250px;
     max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-#wireframes{
-    width:1000px;
-    height: 350px;
-    margin-top:2%;
-    max-width: 100%;
-}
 
-#wireframes2, #wireframes3{
-    width:1010px;
-    height: 320px;
+#wireframes, #wireframes2, #wireframes3{
+    width:800px;
+    height: 350px;
     margin-top:5%;
     max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #p2{
     font-size: 15px;
     width: 80%;
-    line-height: 30px;
+    line-height: 20px;
     margin-top:2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#p3{
-    margin-top:5%;
-    display:flex;
-    flex-direction:row;
-    margin-left: 5%;
+#mockup{
+    max-width:100%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 li{

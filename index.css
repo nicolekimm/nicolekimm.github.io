@@ -28,7 +28,6 @@ body {
     justify-content:flex-end;
     align-items: center;
     z-index:1;
-
 }
 
 .header-right, .header-right a:visited{
@@ -139,7 +138,7 @@ body {
     clear:both;
 }
 
-#personas-img, #responsive-img, #abtesting-img, #iterative-img, #canvas-img, #consumer-img {
+#personas-img, #responsive-img, #abtesting-img, #iterative-img, #canvas-img, #consumer-img, #snackpass-img {
     display:block;
     width: 100%;
     height:auto;
